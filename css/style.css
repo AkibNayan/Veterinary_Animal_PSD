@@ -1,0 +1,403 @@
+/********************
+global css file
+********************/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*google font
+font-family: 'Poppins', sans-serif;*/
+h1,h2,h3,h4,h5,h6,p,span,a,input{
+	font-family: 'Poppins', sans-serif;	
+}
+/**********************
+header css file
+***********************/
+header{
+	width: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.2);
+	padding: 7px 0;
+}
+.input-group input::placeholder{
+	color: white !important;
+}
+.input-group-text{
+    padding: .175rem 1.2rem;
+    background-color: #00bec9 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.input-group-text i{
+	color: #fff;
+}
+.mb-3 {
+    margin-bottom: 0rem!important;
+}
+.form-control {
+    padding: .375rem 0.4rem;
+    background-color: #fcc302 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.nav-item{
+	padding: 0 25px;
+}
+.nav-link{
+	font-size: 21px;
+}
+/*****************
+banner css file
+*****************/
+.banner{
+	width: 100%;
+    background: #fcc302;
+    padding: 120px 0;
+}
+.banner-text{
+	padding-top: 100px;
+}
+.banner h3{
+	font-size: 55px;
+    font-weight: 600;
+    color: #fff;
+}
+.banner p{
+	font-size: 24px;
+    font-weight: 400;
+    color: #fef3cc;
+    margin: 18px 0;
+}
+.btn {  
+    margin-right: 35px;
+}
+.btn-lg {
+    padding: .5rem 0.5rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+}
+.btn-danger {
+    color: #fff !important;
+    background-color: #00bec9 !important;
+    border-color: #00bec9 !important;
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: transparent !important;
+    border-color: #fff !important;
+}
+/***********************
+service css file
+***********************/
+.service{
+	width: 100%;
+	padding: 120px 0;
+}
+.service h3{
+	margin: 0;
+    font-weight: 600;
+    font-size: 36px;
+}
+.service p{
+	margin: 0;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.service .btn-danger{
+	color: #fff7dd !important;
+    background-color: #fcc302 !important;
+    border-color: #fcc302 !important;
+    margin: 0;
+}
+.service .extra1{
+	padding-top: 82px;
+}
+.service-img{
+	position: relative;
+	z-index: 1;
+}
+.service .shadow{
+	position: absolute;
+    background: rgba(252,195,2,0.7);
+    top: 0;
+    right: 12px;
+    bottom: 0;
+    left: 12px;
+}
+.box{
+	height: 120px;
+    width: 120px;
+    background: rgba(252,195,2,1);
+    position: absolute;
+    left: -20px;
+    bottom: -20px;
+    z-index: -1;
+}
+.video-icon i{
+	height: 60px;
+    width: 60px;
+    background: #fff;
+    color: #daac00;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    left: 42%;
+    bottom: 42%;
+    border-radius: 100%;
+}
+/**********************
+treatment css file
+***********************/
+.treatment{
+	width: 100%;
+	padding: 120px 0;
+	background-color: #fcc302;
+}	
+.treatment-text{
+	text-align: center;
+    padding-bottom: 40px;
+}
+.treatment-text h1{
+	margin: 0;
+    font-weight: 700;
+    padding-bottom: 14px;
+    font-size: 50px;
+}
+.treatment-text p{
+ 	margin: 0;
+ 	font-size: 23px;
+}
+.treatment h3{
+	margin: 0;
+    text-align: center;
+    padding-top: 28px;
+    font-weight: 600;
+}
+.treatment p{
+	margin: 0;
+    text-align: center;
+    padding-top: 8px;
+}
+/********************
+service-1 css file
+********************/
+.video-icon-1 i{
+	height: 60px;
+    width: 60px;
+    background: #fff;
+    color: #daac00;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    left: 42%;
+    bottom: 42%;
+    border-radius: 100%;
+    transform: rotate(45deg);
+}
+.box-1{
+	height: 120px;
+    width: 120px;
+    background: rgba(252,195,2,1);
+    position: absolute;
+    right: -12px;
+    bottom: -20px;
+    z-index: -1;
+}
+.extra2{
+	text-align: end;
+}
+/***********************
+value css file
+********************/
+.value-1{
+	padding: 0 10px;
+	color: #fff !important;
+}
+.value-2{
+	padding: 0 10px;
+	color: #fff !important;
+}
+.btn{
+	margin-left: 115px;
+	margin-top: 12px;
+	border-radius: 1.25rem;
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: #00bec9 !important;
+    border-color: #00bec9 !important;
+    padding: 6px 30px;
+}
+/****************
+doctor css file
+******************/
+.extra4{
+	background: transparent;
+}
+.treatment h4{
+	text-align: center;
+    margin: 0;
+    padding-top: 16px;
+}
+.extra3 p{
+	padding: 0;
+}
+.social{
+	text-align: center;
+    margin-right: 30px;
+    margin-top: 17px;
+}
+.treatment ul li{
+	list-style: none;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background: #daac00;
+    border-radius: 100%;
+    margin: 0 4px;
+}
+.treatment ul li a i{
+	color: white;
+}
+/********************
+history css file
+*******************/
+.history{
+	width: 100%;
+	background-image: url(../image/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	padding: 245px 0;
+}	
+.overlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(252,195,2,0.7);
+}
+.extra-1{
+	padding-top: 138px;
+    text-align: center;
+}
+.overlay h3{
+	margin: 0;
+	color: white;
+}
+.overlay p{
+	margin: 0;
+	color: white;
+    font-size: 23px;
+}
+.overlay img{
+	padding-bottom: 52px;
+    width: 21%;
+}
+/*****************
+care css file
+*******************/
+.care{
+	width: 100%;
+	padding: 120px 0;
+}
+.care-top{
+	text-align: center;
+	padding-bottom: 26px;
+}
+.care-top h1{
+	margin: 0;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.care-top p{
+	margin: 0;
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+.extra5{
+	border: 1px solid #d6d6d6;
+    border-top: none;
+}
+.extra6{
+	box-shadow: 0px 0px 2px 1px grey;
+}
+.care h4{
+	margin: 0;
+    font-weight: 600;
+    font-size: 28px;
+    padding-top: 20px;
+}
+.care h6{
+	margin: 0;
+    font-size: 14px;
+    padding: 8px 0;
+    color: #77dce2;
+}
+.care p{
+	margin: 0;
+    padding-bottom: 15px;
+}
+.care h5{
+	margin: 0;
+    color: #77dce2;
+}
+/******************
+footer css file
+******************/
+footer{
+	width: 100%;
+	padding: 120px 0;
+	background-color: #000;
+}
+footer h3{
+	margin: 0;
+    padding-bottom: 10px;
+    padding-left: 31px;
+    color: #fff;
+}
+.form-control-1{
+	padding: 10px;
+}
+.extra7 h3{
+	font-weight: 700;
+    font-size: 30px;
+}
+.extra7 p{
+	margin: 0;
+    color: #fff;
+    padding: 15px 0;
+}
+.extra8 ul li{
+	list-style: none;
+}
+.extra7{
+	text-align: end;
+}
+.extra7 ul li{
+	list-style: none;
+    display: inline-block;
+    padding: 5px 12px;
+    height: 36px;
+    width: 36px;
+    background: white;
+    border-radius: 100%;
+    margin: 0 12px;
+}
+.extra9{
+	text-align: end;
+    margin-right: -14px;
+}
+footer ul li a{
+	color: #fff;
+}
+.extra7 ul li a{
+	color: #000;
+}
