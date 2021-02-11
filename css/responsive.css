@@ -1,0 +1,267 @@
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+/*  bannner part*/
+    .banner{
+        padding: 50px 0;
+    }
+    .banner h3{
+        font-size: 35px;
+    }
+    .banner p {
+        font-size: 22px;
+    }
+    .banner-text .btn{
+        margin-top: 23px;
+        margin-right: 23px;
+    }
+    .banner .img-fluid{
+      margin-top: 71px;
+    }
+    /*service part*/
+    .service{
+      padding: 50px 0;
+    }
+    .service h3{
+      font-size: 34px;
+    }
+   /* treatment part */ 
+   .treatment{
+      padding: 50px 0;
+   }
+
+/*   value part*/
+  .treatment-text{
+      padding-bottom: 0;
+  }
+  .treatment h3{
+      font-size: 36px;
+  }
+  .treatment .btn-primary{
+      padding: 11px 30px;
+  }
+  .treatment .btn{
+      margin-left: 48px;
+  }
+
+/*  care part*/
+  .care{
+    padding: 50px 0;
+  }
+  .care-top h1{
+    padding-bottom: 16px;
+    font-size: 36px;
+  }
+  .care-top p{
+    font-size: 22px;
+  }
+  .extra5 {
+    padding-left: 10px;
+  }
+  .extra6 {
+    padding-left: 10px;
+  }
+
+/*  footer part*/
+  footer h3{
+    padding-left: 0px;
+  }
+  .extra8 ul{
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .extra9 ul{
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-left: -20px;
+  }
+
+}
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+/*    overflow-x: hidden;*/
+  }
+/*  banner part*/
+  .banner{
+    padding: 30px 0;
+    text-align: center;
+  }
+  .banner h3{
+    font-size: 34px;
+  }
+  .banner p{
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .banner-text .btn{
+     margin-top: 20px;
+     margin-right: 24px;
+  }
+  .banner img{
+     visibility: visible;
+  }
+  .banner .img-fluid{
+     max-width: 50%;
+     margin-top: 30px;
+  }
+
+/*  service part*/
+  .service{
+    padding: 50px 0;
+    text-align: center
+  }
+  .service .extra1{
+    padding-top: 0;
+  }
+  .service h3{
+    font-size: 30px;
+  }
+  .service p {
+    font-size: 18px;
+    padding: 11px 0;
+  }
+  .service-img .img-fluid{
+    max-width: 50%;
+  }
+  .service .btn-danger{
+    margin: 20px;
+  }
+
+  .service .shadow{
+    right: 44px;
+    left: 44px;
+  }
+  .service .box{
+    height: 100px;
+    width: 100px;
+    left: 18px;
+    bottom: -20px;
+  }
+/*  treatment part*/
+  .treatment {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .treatment-text {
+    padding-bottom: 0;
+  }
+  .treatment-text h1{
+    padding-bottom: 0px;
+    font-size: 36px;
+  }
+  .treatment p{
+    padding-top: 5px;
+    font-size: 20px;
+  }
+
+/*  service-1 part*/
+  .service .box-1 {
+    right: 10px;
+    bottom: -27px;
+  }
+  .service .extra1{
+    padding-top: 65px;
+    text-align: center;
+  }
+
+ /* value part*/
+.treatment .btn{
+  margin-left: 0px;
+  margin-bottom: 25px;
+}
+.treatment img{
+margin-top: 30px;
+}
+margin-top: 30px;
+.extra4 img{
+margin-top: 30px;
+}
+/*doctor part*/
+.treatment ul li{
+  visibility: visible;
+}
+/*history part*/
+.history{
+  padding: 312px 0;
+}
+.overlay img{
+  padding-bottom: 12px;
+  width: 25%;
+}
+.extra-1{
+  padding-top: 55px;
+}
+.history .col-md-4{
+  margin-bottom: 26px;
+}
+/* care part*/
+.care{
+  padding: 50px 0;
+  text-align: center;
+}
+.care-top h1{
+  font-size: 36px;
+}
+.care p{
+  font-size: 22px;
+}
+.care h5{
+  padding-bottom: 32px;
+}
+.care .img-fluid{
+  margin-top: 32px;
+}
+
+/* footer part*/
+footer{
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer .extra8{
+  padding-bottom: 24px;
+}
+.extra10 ul{
+  margin-bottom: 0rem;
+  padding-left: 0;
+}
+footer h3{
+ padding-left: 0;
+}
+.extra7{
+    text-align: center;
+    padding-top: 20px;
+}
+.extra7 h3{
+   font-size: 36px;
+}
+.extra7 p{
+   padding: 0 0 10px;  
+}
+.extra10 ul{
+  visibility: visible;
+}
+
+}

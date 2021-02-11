@@ -23,6 +23,13 @@ header{
 	background: rgba(0,0,0,0.2);
 	padding: 7px 0;
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    z-index: 9999;
+}
 .input-group input::placeholder{
 	color: white !important;
 }
@@ -72,8 +79,11 @@ banner css file
     color: #fef3cc;
     margin: 18px 0;
 }
-.btn {  
-    margin-right: 35px;
+.banner-text .btn {
+    margin-left: 0px;
+    margin-top: 115px;
+    margin-right: 30px;
+    border-radius: 1.25rem;
 }
 .btn-lg {
     padding: .5rem 0.5rem;
